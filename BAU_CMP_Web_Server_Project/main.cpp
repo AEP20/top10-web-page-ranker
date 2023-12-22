@@ -60,7 +60,6 @@ public:
     }
 };
 
-// Function to read the log file and populate the hash table
 void processLogFile(const string &filename, HashTable &table)
 {
     ifstream file(filename);
@@ -85,7 +84,6 @@ void processLogFile(const string &filename, HashTable &table)
     file.close();
 }
 
-// Function to find the top 10 most visited pages using a max heap
 void findTop10(HashTable &table, vector<pair<int, string>> &top10)
 {
     auto all_elements = table.get_all_elements();
@@ -116,7 +114,7 @@ int main()
 
     HashTable table(1000);
 
-    processLogFile("/Users/ahmetemreparmaksiz/Desktop/BAU_CMP_Web_Server_Project/access_log", table);
+    processLogFile("access_log", table);
 
     vector<pair<int, string>> top10;
     findTop10(table, top10);
