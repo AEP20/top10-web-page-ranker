@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F49602B82B322476009CCD96 /* access_log */ = {isa = PBXFileReference; lastKnownFileType = text; path = access_log; sourceTree = "<group>"; };
 		F4B5C25D2B321E31005AA9DE /* BAU_CMP_Web_Server_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BAU_CMP_Web_Server_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B5C2602B321E31005AA9DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +42,7 @@
 		F4B5C2542B321E31005AA9DE = {
 			isa = PBXGroup;
 			children = (
+				F49602B82B322476009CCD96 /* access_log */,
 				F4B5C25F2B321E31005AA9DE /* BAU_CMP_Web_Server_Project */,
 				F4B5C25E2B321E31005AA9DE /* Products */,
 			);
