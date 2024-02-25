@@ -6,7 +6,7 @@ C++ program reads a log file to identify and rank the most visited web pages, an
 
 - https://github.com/AEP20 (Ahmet Emre Parmaksız)
 - https://github.com/Midzer00 (Ömer Dursun)
-- https://github.com/denizozmen/denizozmen (Deniz Özmen)
+- https://github.com/denizozm (Deniz Özmen)
 - https://github.com/baris04 (Barış Başaran)
 
 # How Does It Work?
