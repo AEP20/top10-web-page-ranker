@@ -51,7 +51,7 @@ public:
                 return p.second;
             }
         }
-        return 0; // Key not found
+        return 0;
     }
 
     vector<vector<pair<string, int>>> get_all_elements()
